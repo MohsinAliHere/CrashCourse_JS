@@ -8,14 +8,14 @@
 // innerFunc(10);
 
 // 2
-// function findElement(arr, val, idx = 0) {
+// function findElement(arr, val, id = 0) {
 //     if (arr.length === 0) {
 //       return false
 //     }
-//     if (arr[0]  === val) {
+//     if (arr[id]  === val) {
 //       return true;
 //     }
-//     return recursiveArraySearch(arr.slice(1), val, idx + 1); // recursively search the rest of the array with an incremented index
+//     return findElement(arr.slice(1), val, id + 1); 
 //   }
 //   const arr = ["apple", "banana", "orange", "grape", "kiwi"];
 //   const searchValue = "orange";
